@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Signup Form</title>
+  </head>
+  <body>
+    <div
+      class="container-fluid d-flex justify-content-center align-items-center min-vh-100"
+    >
+      <form class="glassmorphism">
+        <h4 class="text-center mb-4">LOGIN</h4>
+
+        <div class="mb-3">
+          <label for="email" id="email" class="form-label">Email ID</label>
+          <input type="email" class="form-control" id="email" />
+        </div>
+
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control" id="password" />
+        </div>
+
+        <button type="submit" id="btn" class="btn btn-primary w-100">
+          Login
+        </button>
+        <div class="account">
+          <div class="Did">If you didn't have an account?</div>
+          <div><a class="link" href="index.html">Sign up now</a></div>
+        </div>
+      </form>
+    </div>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
